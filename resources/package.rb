@@ -18,6 +18,8 @@
 # limitations under the License.
 #
 
+include Windows::PackageList
+
 actions :install, :remove
 
 default_action :install
